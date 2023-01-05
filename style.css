@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+#main #left{
+    height: 100%;
+    width: 35%;
+    background-color: rgba(8, 93, 146, 0.902);
+    position: relative;
+    
+    }
+#lc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 50%;
+   
+}    
+#main #center{
+    height: 100%;
+    width: 55%;
+    background-image: url(https://images.unsplash.com/photo-1520423465871-0866049020b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size:cover ;
+    background-position: center;
+    
+    
+}
+
+#main #right{
+    height: 100%;
+    width: 10%;
+    background-color:  rgba(8, 93, 146, 0.902);
+    
+    position: relative;
+}
+#main #tc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    z-index: 99;
+}
+#tc h1{
+    font-family: "voyage";
+    white-space: nowrap;
+    font-size: 100px;
+    font-weight: 200;
+}
+#tc h5{
+    font-family: "voyage";
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#lc #lctxt{
+    position: absolute;
+    top: 105%;
+    width: 100%;
+
+}
+#lctxt p{
+color: #fff;
+font-size: 15px;
+
+}
+#bottom{
+    top: 70%;
+    right: 2%;
+    height: 20%;
+    width: 18%;
+    background-image: url(https://images.unsplash.com/photo-1551488831-68b4d0c92c13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    
+ 
+    position: absolute;
+}
